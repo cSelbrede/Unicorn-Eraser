@@ -1,0 +1,24 @@
+{
+    "context": "client",
+    "identifier": "com.pa.turnus.unicorn-eraser",
+    "display_name": "Unicorn Eraser",
+    "description": "Removes all references to unicorns.",
+    "author": "Turnus",
+    "version": "1.0.0",
+    "build": "115529",
+    "date": "2021-02-19",
+    "category": 
+    [
+        "classic", 
+        "titans", 
+        "fix", 
+        "ui"
+    ],
+    "forum": "TODO",
+    "signature": " ",
+    "icon": "https://raw.githubusercontent.com/cSelbrede/Unicorn-Eraser/main/images/icon.png",
+    "github": "TODO",
+    "scenes":
+    {
+    }
+}
