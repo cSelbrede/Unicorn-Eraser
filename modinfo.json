@@ -20,5 +20,9 @@
     "github": "TODO",
     "scenes":
     {
+        "start":
+        [
+            "coui://ui/mods/com.pa.turnus.unicorn-eraser/start.js"
+        ]
     }
 }
