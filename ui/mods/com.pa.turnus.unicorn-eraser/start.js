@@ -4,6 +4,10 @@ if (!unicornEraserLoaded) {
     unicornEraserLoaded = true;
 
     try {
+        // Switch immediately to news tab, since community videos might have footage of unicorns
+        model.toggleNewsTab();
+
+        // Remove unicorn references from the news tab
         var superProcessNewsContent = model.processNewsContent;
         model.processNewsContent = function(html) {
             if (model.newsUrl() === 'https://planetaryannihilation.com/news/rainbows-unicorns-updates/')
@@ -12,12 +16,10 @@ if (!unicornEraserLoaded) {
                 trimmedTitle = model.newsTitle().replace(regex, '').trim();
                 model.newsTitle(trimmedTitle);
 
-                return "<p>UNICORN DETECTED...</p><p>ANNIHILATING...</P><p>UNICORN COMMANDER SUCCESSFULLY ANNIHILATED!</p>";
+                html = '<p>Full update notes: <a href="https://planetaryannihilation.com/news/rainbows-unicorns-updates/">https://planetaryannihilation.com/news/updates</a>';
             }
-            else
-            {
-                return superProcessNewsContent(html);
-            }
+
+            return superProcessNewsContent(html);
         }
     } catch(e) {
         console.error(e);
