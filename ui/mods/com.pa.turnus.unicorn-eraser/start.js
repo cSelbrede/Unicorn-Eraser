@@ -5,9 +5,6 @@ if (!unicornEraserLoaded) {
 
     try {
         (function() {
-            // Close any tabs that might have the unicorn open on it
-            model.communityTabGroup(null);
-
             // Remove unicorn references from the news tab
             var superProcessNewsContent = model.processNewsContent;
             model.processNewsContent = function(html) {
