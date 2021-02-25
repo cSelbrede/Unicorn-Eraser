@@ -9,7 +9,9 @@ Retires those cybernetic techno unicorn commanders.
 
 # Features
 Replace Unicorn commander with Raizell in lobbies and in-game
+
 Remove references to unicorns and rainbows from related news post
+
 Unicorn still present in armory
 
 # Images
