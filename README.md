@@ -15,6 +15,7 @@ Remove references to unicorns and rainbows from related news post.
 
 # Images
 ![alt text][start-screen]
+My start screen, despite selecting the Unicorn commander from the armory as my default commander.
 
 [crushed-unicorn]: https://github.com/cSelbrede/Unicorn-Eraser/blob/main/images/crushed-unicorn.png "No More Unicorns"
 [start-screen]: https://github.com/cSelbrede/Unicorn-Eraser/blob/main/images/unicorn_selected.jpg "Unicorn-Free Start Screen"
