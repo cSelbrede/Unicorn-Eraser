@@ -8,9 +8,11 @@ Retires those cybernetic techno unicorn commanders.
 2. Unzip mod into client_mods folder in the [PA Data Directory](https://planetaryannihilation.com/support/troubleshooting/#data-directory).
 
 # Features
-Replace Unicorn commander with Raizell in lobbies and in-game
-Remove references to unicorns and rainbows from related news post
-Unicorn still present in armory
+Replace Unicorn commander with Raizell in lobbies and in-game.
+
+Remove references to unicorns and rainbows from related news post.
+
+Unicorn still present in armory.
 
 # Images
 ![Raizell][replacement-commander]
