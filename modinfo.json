@@ -5,8 +5,8 @@
     "description": "Removes all references to unicorns.",
     "author": "Turnus",
     "version": "1.0.0",
-    "build": "115529",
-    "date": "2021-02-19",
+    "build": "115546",
+    "date": "2021-02-25",
     "category": 
     [
         "classic", 
@@ -17,7 +17,7 @@
     "forum": "TODO",
     "signature": " ",
     "icon": "https://raw.githubusercontent.com/cSelbrede/Unicorn-Eraser/main/images/icon.png",
-    "github": "TODO",
+    "github": "https://github.com/cSelbrede/Unicorn-Eraser",
     "scenes":
     {
         "start":
